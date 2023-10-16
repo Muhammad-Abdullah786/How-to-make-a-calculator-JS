@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    background-color: rgb(58, 138, 141);
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 16%;
+    flex-wrap: nowrap;
+    
+}
+.buttons button {
+    font-size: 50px;
+    padding: 7px 12px 7px 12px ;
+    margin: 12px 12px 12px 12px ;
+    background-color: violet;
+    border-radius: 30px;
+    border-color: rgb(63, 36, 161);
+
+}
+.screen{
+    width: 200px;
+    margin:  auto;
+
+}
