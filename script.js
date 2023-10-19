@@ -8,3 +8,5 @@ function calculate(button) {
 // now use foreach to get the buttons
 
 buttons.forEach(button => button.addEventListener('click', () => calculate(button)))
+
+
