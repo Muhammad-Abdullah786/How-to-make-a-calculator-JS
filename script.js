@@ -30,6 +30,7 @@ function calculate(button) {
         calculation.push(value)
         calculationWithoutChar = calculation.join('')
         screenDisplay.textContent = calculationWithoutChar
+        console.log(calculationWithoutChar);
     }
     // now what if the user add + character to the calculation 2 or more that 2 time for that we will use switch case and put it in the function
     function specialCharacterCheck(character){
